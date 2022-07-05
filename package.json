@@ -1,0 +1,26 @@
+{
+  "name": "wdd_353_live_session_week_2",
+  "version": "1.0.0",
+  "description": "NodeJS Static Web Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJS",
+    "Static",
+    "Web",
+    "Server"
+  ],
+  "author": "Eric Clarke",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.19"
+  }
+}
